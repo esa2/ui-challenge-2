@@ -1,54 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>UI Challeng 02</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="box">
-            <div class="margin">
-                <h1>UI Challenge - Custom Form Elements</h1>
-                <p class="small-text">
-                    NOTE: <span class="em-bold">DO NOT</span> attempt to directly style the radio buttons, checkboxes, or the custom select box - you’ll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge… don’t worry if it’s not perfect - styling custom form elements can be tricky and you’ll need to use your best judgement at times!
-                </p>
-                
-                <form class="form-one">
-                    <p>text input</p>
-                    <input required class="input" type="text" placeholder="placeholder text">
-                </form>
-                <form class="form-two" novalidate>
-                    <p>text input w/ validation error</p>
-                    <div class="ftdiv">
-                    <input class="input in-border" type="text" placeholder="placeholder text">
-                    <p class="red">please enter a valid username</p>
-                    </div>
-                
-                 
-
-            </form>
-            <form>
-                    
-                    
-                <p>checkbox</p>
-                <input id="input-check1" type="checkbox">
-                <div class="checkbox1"></div>
-                <input id="input-check2" type="checkbox">
-                <div class="checkbox2"></div>
-                
-                <input id="input-radio" type="checkbox">
-                <p>radio</p>
-                <div class="radio1"></div>
-                <div class="radio2"></div>
-
-                <p>buttons</p>
-               <button type="submit">submit</button>
-               <button type="submit">submit</button>
-
-            </form>
-
-           
-            </div>
-        </div>
-    </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Challeng 02</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+      <div class="margin">
+        <h1>UI Challenge - Custom Form Elements</h1>
+        <p class="small-text">
+          NOTE: <span class="em-bold">DO NOT</span> attempt to directly style the radio buttons, checkboxes, or the custom select box - you’ll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge… don’t worry if it’s not perfect - styling custom form elements can be tricky and you’ll need to use your best judgement at times!
+        </p>
+        <form class="form-one">
+          <p>text input</p>
+          <input required class="input" type="text" placeholder="placeholder text">
+        </form>
+        <form class="form-two" novalidate>
+          <p>text input w/ validation error</p>
+          <div class="ftdiv">
+            <input class="input in-border" type="text" placeholder="placeholder text" minlength="6">
+            <p class="red">please enter a valid username</p>
+          </div>
+        </form>
+        <form>
+          <p>checkbox</p>
+          <input id="input-check1" type="checkbox">
+          <div class="checkbox1"></div>
+          <input id="input-check2" type="checkbox">
+          <div class="checkbox2"></div>
+          <input id="input-radio" type="checkbox">
+          <p>radio</p>
+          <div class="radio1"></div>
+          <div class="radio2"></div>
+          <p>buttons</p>
+          <button type="submit">submit</button>
+          <button type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
