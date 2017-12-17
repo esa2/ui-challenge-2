@@ -151,7 +151,7 @@ button:hover {
   opacity: 0;
 }
 
-#input-radio:checked + p + div {
+.input-radio-check {
   background-position: -267px -80px;
 }
 
