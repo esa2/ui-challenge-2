@@ -39,6 +39,7 @@ button {
     width: 600px;
     margin: 0 auto;
     border: 1px solid;
+    position: relative;
   }
 
 .margin {
@@ -81,7 +82,7 @@ button {
       color: #222;
   }
 
-  .checkbox1, .checkbox2, .radio1, .radio2, .button1, .button2 {
+  .checkbox1, .checkbox2, .radio1, .radio2 {
     background-image: url('form-elements-sprite.png');
     background-repeat: no-repeat;
     background-size: 480px 220px;
@@ -89,10 +90,46 @@ button {
   
   .checkbox1 {
     height: 80px;
-    width: 140px;
+    width: 70px;
     background-position: -50px -80px;
     margin-bottom: 60px;
+    display: inline-block;
   }
+
+  .checkbox2 {
+    height: 80px;
+    width: 70px;
+    background-position: -120px -80px;
+    margin-bottom: 60px;
+    display: inline-block;
+  }
+
+  #input-check1 {
+    position: absolute;
+    top: 556px;
+    left: 58px;
+    width: 54px;
+    height: 54px;
+    opacity: 0;
+  }
+
+  #input-check1:checked + div {
+    background-position: -123px -80px;
+  }
+
+   #input-check2 {
+    position: absolute;
+    top: 556px;
+    left: 136px;
+    width: 54px;
+    height: 54px;
+    opacity: 0;
+  }
+
+  #input-check2:checked + div {
+    background-position: -47px -80px;
+  }
+
 
    .radio1 {
     height: 80px;
@@ -110,18 +147,15 @@ button {
     display: inline-block;
   }
   
-  #input-pri {
+  #input-radio {
     position: absolute;
-    top: 738px;
-    left: 160px;
-    width: 50px;
-    height: 50px;
+    top: 757px;
+    left: 58px;
+    width: 54px;
+    height: 54px;
+    opacity: 0;
   }
 
-  input {
-      opacity: 0;
-  }
-
-  #input-pri:checked + p + div {
+  #input-radio:checked + p + div {
     background-position: -267px -80px;
   }
