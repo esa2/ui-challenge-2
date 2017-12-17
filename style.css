@@ -54,4 +54,39 @@ p {
       color: #222;
   }
 
+  .checkbox1, .checkbox2, .radio1, .radio2, .button1, .button2 {
+    background-image: url('form-elements-sprite.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
+  .checkbox1 {
+    height: 500px;
+    width: 500px;
+    background-position: -60px -160px;
+  }
+  
+  /* .checkbox2 {
+    height: 135px;
+    background-position: -5px -143px;
+  } */
+  
+  /* .radio1 {
+    height: 147px;
+    background-position: -5px -288px;
+  }
+
+  .radio2 {
+    height: 147px;
+    background-position: -5px -288px;
+  }
+
+  .button1 {
+    height: 147px;
+    background-position: -5px -288px;
+  }
+
+  .button2 {
+    height: 147px;
+    background-position: -5px -288px;
+  } */
