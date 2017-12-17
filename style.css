@@ -35,7 +35,7 @@ button {
     flex-direction: column;
     justify-content: column;
     background-color: #fff;
-    height: 1000px;
+    height: 1100px;
     width: 600px;
     margin: 0 auto;
     border: 1px solid;
@@ -96,7 +96,32 @@ button {
 
    .radio1 {
     height: 80px;
-    width: 140px;
+    width: 70px;
     background-position: -191px -80px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
+    display: inline-block;
+  }
+
+  .radio2 {
+    height: 80px;
+    width: 70px;
+    background-position: -266px -80px;
+    margin-bottom: 60px;
+    display: inline-block;
+  }
+  
+  #input-pri {
+    position: absolute;
+    top: 738px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+      opacity: 0;
+  }
+
+  #input-pri:checked + p + div {
+    background-position: -267px -80px;
   }
