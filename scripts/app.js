@@ -13,7 +13,7 @@ $('.in-border').on('blur', function() {
     }
 });
 
-$('#input-radio').on('click', function() {
+$('.input-radio').on('click', function() {
     $('.radio1').addClass("input-radio-check"); // add radio checked
   })
 

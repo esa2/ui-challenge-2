@@ -90,7 +90,7 @@ p {
   display: inline-block;
 }
 
-#input-check1 {
+.input-check1 {
   position: absolute;
   top: 556px;
   left: 58px;
@@ -99,11 +99,11 @@ p {
   opacity: 0;
 }
 
-#input-check1:checked + div {
+.input-check1:checked + div {
   background-position: -123px -80px;
 }
 
-#input-check2 {
+.input-check2 {
   position: absolute;
   top: 556px;
   left: 136px;
@@ -112,7 +112,7 @@ p {
   opacity: 0;
 }
 
-#input-check2:checked + div {
+.input-check2:checked + div {
   background-position: -47px -80px;
 }
 
@@ -132,7 +132,7 @@ p {
   display: inline-block;
 }
 
-#input-radio {
+.input-radio {
   position: absolute;
   top: 757px;
   left: 58px;
