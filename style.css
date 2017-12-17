@@ -27,14 +27,17 @@ p {
     border: 1px solid;
   }
 
-  .margin {
+.margin {
       margin: 20px 60px;
   }
 
-  .input-top {
+.form-one {
     margin-bottom: 40px;
 }
 
+.form-two {
+    margin-bottom: 60px;
+}
   .input {
     width: 100%;
     padding: 12px;
@@ -57,13 +60,13 @@ p {
   .checkbox1, .checkbox2, .radio1, .radio2, .button1, .button2 {
     background-image: url('form-elements-sprite.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 480px 220px;
   }
   
   .checkbox1 {
-    height: 500px;
-    width: 500px;
-    background-position: -60px -160px;
+    height: 400px;
+    width: 60px;
+    background-position: -50px -80px;
   }
   
   /* .checkbox2 {
