@@ -12,13 +12,15 @@
                 <p class="small-text">
                     NOTE: <span class="em-bold">DO NOT</span> attempt to directly style the radio buttons, checkboxes, or the custom select box - you’ll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge… don’t worry if it’s not perfect - styling custom form elements can be tricky and you’ll need to use your best judgement at times!
                 </p>
+                
                 <form class="form-one">
                     <p>text input</p>
-                    <input class="input" type="text" placeholder="placeholder text">
+                    <input required class="input" type="text" placeholder="placeholder text">
                 </form>
                 <form class="form-two" novalidate>
                     <p>text input w/ validation error</p>
-                    <input class="input" type="text" placeholder="placeholder text">
+                    <input class="input in-border" type="text" placeholder="placeholder text">
+                    <p class="red">please enter a valid username</p>
                 </form>
                 <p>checkbox</p>
              
@@ -30,10 +32,10 @@
                 <div class="radio2"></div>
 
                 <p>buttons</p>
-               <button>submit</button>
-               <button>submit</button>
+               <button type="submit">submit</button>
+               <button type="submit">submit</button>
 
-           
+           </form>
             </div>
         </div>
     </body>
