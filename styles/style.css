@@ -61,6 +61,10 @@ button:hover {
   border: 1px solid gray;
 }
 
+.in-border-red {
+  border: 1px solid red;
+}
+
 .red {
   color: red;
   font-size: 16px;
@@ -155,10 +159,6 @@ button:hover {
   background-position: -267px -80px;
 }
 
-.in-border:valid + p {
+.in-border-focus {
   visibility: hidden;
-}
-
-.in-border:invalid {
-  border: 1px solid red;
 }
